@@ -11,11 +11,16 @@ gem 'thin', '~> 1.2.7'
 gem 'uuid', '~> 2.3.1'
 gem 'jquery-rails'
 
+
+
 group :development do
   gem 'awesome_print', :require => 'ap'
   gem 'ruby-debug19'
   gem 'rspec-rails', '= 2.0.1'
 end
+
+
+
 
 group :test do
   gem 'awesome_print', :require => 'ap'
