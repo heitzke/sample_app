@@ -1,0 +1,11 @@
+Script started on Mon Jan 31 14:14:45 2011
+bash-3.2$ user = User.new(:bn[K[Kname => "", :email => "mhartl@example[K.eo[K[Kcom")
+bash: syntax error near unexpected token `('
+bash-3.2$ User.user = User.new(:name => "", :email => "mhartl@exampl.com")[4hx[4l[4hx[4l[4hd[4l[4h[[4l[4hD[4l[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+bash: syntax error near unexpected token `:name'
+bash-3.2$ quit
+bash: quit: command not found
+bash-3.2$ exit
+exit
+
+Script done on Mon Jan 31 14:16:11 2011

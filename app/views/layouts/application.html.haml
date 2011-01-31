@@ -19,3 +19,4 @@
 			.content{:class => 'round'}
 				= yield 
 			= render :partial => 'shared/footer'
+			= debug(params) if Rails.env.developement?

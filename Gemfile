@@ -17,6 +17,7 @@ group :development do
   gem 'awesome_print', :require => 'ap'
   gem 'ruby-debug19'
   gem 'rspec-rails', '= 2.0.1'
+	gem 'annotate-models', '1.0.4'
 end
 
 
