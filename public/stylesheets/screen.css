@@ -2,7 +2,10 @@ html {
 	background:#cff;
 	font-family:'arial' 'helvetica' sans-serif;
 }
+body {
+	font-family:sans-serif;
 
+}
 
 .main_container {
 	width:750px;
@@ -29,6 +32,7 @@ html {
 .navigation ul {
 	display:inline;
 	background:#fff;
+	margin: 0 0 0 35px;
 }
 
 .navigation li {
@@ -52,15 +56,30 @@ html {
 .interior_content {
 	margin: 0 0 20px 15px;
 }
+.interior_content h2 {
+	float:left;
+	font-size:1.4em;
+}
+
 .content {
 	width:740px;
 	background:#fff;
 	margin: 10px auto;
 	padding: 10px 5px 10px 5px;
 }
+.user_sidebar {
+	float:right;
+	width:200px;
+	background:#eee;
+	padding: 10px 0 0 10px;
+	margin: 0 5px 0 0;
+}
+.user_sidebar h3 {
+	float:left;
+	padding: 0 5px 10px 0;
+	font-size:1.2em;
 
-
-
+}
 .signup_button { 
 	margin-left: auto; 
 	margin-right: auto; 

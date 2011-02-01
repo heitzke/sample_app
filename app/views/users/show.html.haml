@@ -1,2 +1,12 @@
-%p
-	User.all
+.interior_content
+	%h2
+		= gravatar_for @user
+		= @user.name
+
+	.user_sidebar.round
+		%h3 Name
+		%p= @user.name
+		.clear	
+		%h3 URL
+		%p= link_to user_path(@user), @user
+.clear

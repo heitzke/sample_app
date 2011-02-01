@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'devise', '~> 1.1.3'
+gem 'gravatar_image_tag', '0.1.0'
 gem 'gravtastic'
 gem 'haml', '~> 3.0.18', :require => 'haml'
 gem 'lemonade', '~> 0.3.4'
@@ -30,6 +31,7 @@ group :test do
   gem 'cucumber-rails', '~> 0.3.2'
   gem 'database_cleaner', '~> 0.5.2'
   gem 'escape_utils', '~> 0.1.9'
+	gem 'factory_girl_rails', '1.0'
   gem 'faker', '~> 0.3.1'
   gem 'forgery', '~> 0.3.5'
   gem 'launchy', '~> 0.3.7'
