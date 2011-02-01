@@ -1,5 +1,17 @@
 .interior_content
 	%h2
-		Users#new
-	%p
-		Find me in app/views/users/new.html.erb
+		Sign Up
+	.signup_form
+		= form_for(@user) do |f|
+			.field
+				= f.label :name
+				= f.text_field :name
+			.field
+				= f.label :email
+				= f.text_field :email
+			.field
+				= f.label :password
+				= f.password_field :password
+			.actions
+				= f.submit "Sign Up"
+	.clear

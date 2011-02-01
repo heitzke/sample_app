@@ -4,7 +4,6 @@ html {
 }
 body {
 	font-family:sans-serif;
-
 }
 
 .main_container {
@@ -57,10 +56,28 @@ body {
 	margin: 0 0 20px 15px;
 }
 .interior_content h2 {
-	float:left;
 	font-size:1.4em;
+	margin: 0 0 15px 0;
 }
-
+.signup_form {
+	margin: 10px 0 0 0;
+}
+.signup_form .field {
+	margin: 0 0 10px 0;
+	width:300px;
+}
+.signup_form input {
+	width:200px;
+	float:right;
+}
+.signup_form .actions {
+	width:300px;
+	margin: 10px 0 0 0;
+}
+.signup_form .actions input {
+	float:right;
+	width:100px;
+}
 .content {
 	width:740px;
 	background:#fff;
@@ -78,7 +95,10 @@ body {
 	float:left;
 	padding: 0 5px 10px 0;
 	font-size:1.2em;
-
+	text-decoration:underline;
+}
+.user_sidebar p {
+	padding: 3px 0 0 0;
 }
 .signup_button { 
 	margin-left: auto; 
